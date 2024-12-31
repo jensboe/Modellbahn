@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "da5a1e6a-2605-436b-a30c-1027586d5c0a")
 	(paper "A4")
+	(title_block
+		(date "2024-12-31")
+		(rev "1")
+		(company "Jens Böckmann")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x19_Odd_Even"
 			(pin_names
