@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "c259a07e-8f4f-4615-b83b-62a2ab9710e5")
 	(paper "A4")
+	(title_block
+		(title "Expansion Board A")
+		(date "2025-01-01")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "74xx:74HC373"
 			(exclude_from_sim no)
@@ -3955,7 +3960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:STC_SOP-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm"
 			(at 160.02 71.12 0)
 			(effects
 				(font
@@ -3982,7 +3987,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C18164493"
+		(property "LCSC" "C5947"
 			(at 160.02 71.12 0)
 			(effects
 				(font
@@ -5773,16 +5778,6 @@
 			)
 			(uuid "5f2e8166-b3a0-4c48-8e75-1f9409a6baab")
 		)
-		(pin "set(+5V)" passive
-			(at 210.82 58.42 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "88f02f69-1c40-4df4-8350-5f1d4af239d2")
-		)
 		(pin "output" passive
 			(at 223.52 60.96 0)
 			(effects
@@ -5802,6 +5797,16 @@
 				(justify left)
 			)
 			(uuid "4a7666d2-8f83-460f-b10c-6b5584d16507")
+		)
+		(pin "set(3V3)" passive
+			(at 210.82 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bf0db5aa-6860-46cd-8e7b-4c7210e5fb13")
 		)
 		(instances
 			(project "expansion_a"
@@ -5861,16 +5866,6 @@
 			)
 			(uuid "efb4d2b1-6d37-473e-9ff3-ca63075ce479")
 		)
-		(pin "set(+5V)" passive
-			(at 257.81 33.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3982d17d-6e28-47be-8121-cde2cbee7449")
-		)
 		(pin "output" passive
 			(at 270.51 35.56 0)
 			(effects
@@ -5890,6 +5885,16 @@
 				(justify left)
 			)
 			(uuid "4e3978b5-bb58-4e00-9e4b-d56b04ad2f24")
+		)
+		(pin "set(3V3)" passive
+			(at 257.81 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7fa6ecc4-536a-4a2b-b720-4a5b82f8ae15")
 		)
 		(instances
 			(project "expansion_a"
@@ -5949,16 +5954,6 @@
 			)
 			(uuid "0b4b7bcd-9071-47cf-abc6-e5f97fa60c69")
 		)
-		(pin "set(+5V)" passive
-			(at 210.82 33.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fcb137f7-8c2e-4730-9a66-5c937bc46db2")
-		)
 		(pin "output" passive
 			(at 223.52 35.56 0)
 			(effects
@@ -5978,6 +5973,16 @@
 				(justify left)
 			)
 			(uuid "4e0cb169-9d7b-4ff2-83f7-e2f5b4c6ec8a")
+		)
+		(pin "set(3V3)" passive
+			(at 210.82 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "770e15a1-8986-46c2-a934-44e0e1d7cc8f")
 		)
 		(instances
 			(project "expansion_a"
@@ -6037,16 +6042,6 @@
 			)
 			(uuid "4a89441b-ac8c-47a9-a0a6-682b457a478e")
 		)
-		(pin "set(+5V)" passive
-			(at 257.81 58.42 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a55a1355-51d7-44fb-8195-687c5deab6a0")
-		)
 		(pin "output" passive
 			(at 270.51 60.96 0)
 			(effects
@@ -6066,6 +6061,16 @@
 				(justify left)
 			)
 			(uuid "feb3c02a-fad8-4acf-bfcc-6d06256be145")
+		)
+		(pin "set(3V3)" passive
+			(at 257.81 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed481efb-fbf3-4d88-bdf8-5c2bbad0559d")
 		)
 		(instances
 			(project "expansion_a"
@@ -6125,16 +6130,6 @@
 			)
 			(uuid "b56ff71c-4813-4de8-b048-b5f0ea42bb83")
 		)
-		(pin "set(+5V)" passive
-			(at 210.82 82.55 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "dab0e85c-19ea-4e05-9da4-611eebd0c5a3")
-		)
 		(pin "output" passive
 			(at 223.52 85.09 0)
 			(effects
@@ -6154,6 +6149,16 @@
 				(justify left)
 			)
 			(uuid "fcfd8ccb-cdb0-4331-9345-fa197739f152")
+		)
+		(pin "set(3V3)" passive
+			(at 210.82 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27e977b5-928e-4572-bc64-881bb5b78348")
 		)
 		(instances
 			(project "expansion_a"
@@ -6341,16 +6346,6 @@
 			)
 			(uuid "3d2596f9-c1f2-481f-9ba3-7c750bd318c8")
 		)
-		(pin "set(+5V)" passive
-			(at 257.81 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "17906247-c6e0-4f34-9019-6f63c88f6bde")
-		)
 		(pin "output" passive
 			(at 270.51 110.49 0)
 			(effects
@@ -6370,6 +6365,16 @@
 				(justify left)
 			)
 			(uuid "a57fd7c4-cb47-40cc-80d1-37713fa87a76")
+		)
+		(pin "set(3V3)" passive
+			(at 257.81 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a1b06fd-9620-4a2e-bfbf-1b0e4d14b2f4")
 		)
 		(instances
 			(project "expansion_a"
@@ -6429,16 +6434,6 @@
 			)
 			(uuid "b3b98c79-67cf-4745-b2c7-137e07dbc290")
 		)
-		(pin "set(+5V)" passive
-			(at 210.82 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "75821f07-be8c-4da6-94b0-cadb86469453")
-		)
 		(pin "output" passive
 			(at 223.52 110.49 0)
 			(effects
@@ -6458,6 +6453,16 @@
 				(justify left)
 			)
 			(uuid "df5a132b-457d-468a-8d8d-bbfb8d4f3633")
+		)
+		(pin "set(3V3)" passive
+			(at 210.82 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "78d2f85e-dbd4-465c-a414-a3a31896fe60")
 		)
 		(instances
 			(project "expansion_a"
@@ -6517,16 +6522,6 @@
 			)
 			(uuid "433ade05-c49a-48ff-96d9-22e755f955a8")
 		)
-		(pin "set(+5V)" passive
-			(at 257.81 82.55 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8d3ddcbb-1b76-4b55-84b8-62429df03677")
-		)
 		(pin "output" passive
 			(at 270.51 85.09 0)
 			(effects
@@ -6546,6 +6541,16 @@
 				(justify left)
 			)
 			(uuid "497d1ee7-f74d-4f4c-8b98-45198d421de0")
+		)
+		(pin "set(3V3)" passive
+			(at 257.81 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "01de7cc9-d6a9-4541-8509-7e4a5023eec6")
 		)
 		(instances
 			(project "expansion_a"
