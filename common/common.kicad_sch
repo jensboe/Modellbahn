@@ -653,7 +653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf1fc66-48fd-4afa-b7b3-b32cd75d9e06")
-		(property "Reference" "J1102"
+		(property "Reference" "J202"
 			(at 44.45 45.7199 0)
 			(effects
 				(font
@@ -748,7 +748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f91c4d46-c9c8-48e0-a793-12c8542f538d")
-		(property "Reference" "J1101"
+		(property "Reference" "J201"
 			(at 40.64 34.2899 0)
 			(effects
 				(font
