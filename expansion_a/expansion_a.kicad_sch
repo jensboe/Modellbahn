@@ -5670,16 +5670,6 @@
 			)
 			(uuid "f98a9c02-2a9d-48c5-aa89-e0aab21c785c")
 		)
-		(pin "+5V" passive
-			(at 50.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f2232a3d-4dc7-4753-90f3-9e2fd903c6a5")
-		)
 		(pin "V_switch" passive
 			(at 50.8 43.18 0)
 			(effects
@@ -5719,6 +5709,16 @@
 				(justify right)
 			)
 			(uuid "6d0d5c69-041a-44b2-a3fb-81cd89ade008")
+		)
+		(pin "3V3" passive
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "19706ace-7771-4cb1-8676-da3e0f4506df")
 		)
 		(instances
 			(project "expansion_a"
@@ -6238,16 +6238,6 @@
 			)
 			(uuid "08d46c03-85c8-4cec-b026-3f34ffc0023a")
 		)
-		(pin "+5V" passive
-			(at 54.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "35e6675a-4c95-40a8-b1c0-d75ad080a41a")
-		)
 		(pin "V_switch" passive
 			(at 54.61 109.22 0)
 			(effects
@@ -6287,6 +6277,16 @@
 				(justify right)
 			)
 			(uuid "c0e28a3f-083c-4203-a80a-2ee6cd5d8b49")
+		)
+		(pin "3V3" passive
+			(at 54.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65eb47b2-dfec-4ede-b856-1d71b676d6c9")
 		)
 		(instances
 			(project "expansion_a"

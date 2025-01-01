@@ -589,7 +589,7 @@
 		)
 		(uuid "60914ef9-099a-4de9-9686-e1dbedd6ba5d")
 	)
-	(hierarchical_label "+5V"
+	(hierarchical_label "3V3"
 		(shape passive)
 		(at 143.51 97.79 180)
 		(fields_autoplaced yes)
@@ -742,6 +742,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/be4cc6bd-ceea-46b6-92b6-aa36a5c51c8f"
+					(reference "J202")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -825,6 +831,12 @@
 				)
 				(path "/c259a07e-8f4f-4615-b83b-62a2ab9710e5/848db9d7-01a9-412a-af9c-536e25f0a80c"
 					(reference "J1101")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/be4cc6bd-ceea-46b6-92b6-aa36a5c51c8f"
+					(reference "J201")
 					(unit 1)
 				)
 			)
