@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -482,6 +482,40 @@
         "via_diameter": 0.6,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.3,
+        "via_diameter": 1.6,
+        "via_drill": 0.7,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "supply",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -489,7 +523,60 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "power",
+        "pattern": "*PWR*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*V*in*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*JP102*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*V_switch*"
+      },
+      {
+        "netclass": "supply",
+        "pattern": "*VCC"
+      },
+      {
+        "netclass": "supply",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*V_Drive*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*V_drive*"
+      },
+      {
+        "netclass": "supply",
+        "pattern": "*D102*"
+      },
+      {
+        "netclass": "supply",
+        "pattern": "*D103*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*GND_TRACK*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*V_TRACK*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*GND_SENSE*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -557,13 +644,49 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Feld6",
+          "name": "Feld6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Beschreibung",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -620,7 +743,15 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Root"
+      "Stammblatt"
+    ],
+    [
+      "be4cc6bd-ceea-46b6-92b6-aa36a5c51c8f",
+      "Connector"
+    ],
+    [
+      "95424f11-c559-42ae-be19-c52cd636536c",
+      "Driver"
     ]
   ],
   "text_variables": {}
