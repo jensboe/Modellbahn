@@ -246,7 +246,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1790700|1041400|99bd6282-6338-4248-afa5-2f0ab76b2d6d|79541958-6c4d-443c-8c00-d2f3a104f57b|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95424f11-c559-42ae-be19-c52cd636536c|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95424f11-c559-42ae-be19-c52cd636536c|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95424f11-c559-42ae-be19-c52cd636536c",
+      "pin_to_pin|1790700|1066800|92e52fd6-955a-4f01-9caa-530df4a847a2|1027ccf4-c2aa-468f-b056-6d051433505b|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95424f11-c559-42ae-be19-c52cd636536c|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95424f11-c559-42ae-be19-c52cd636536c|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/95424f11-c559-42ae-be19-c52cd636536c"
+    ],
     "meta": {
       "version": 0
     },
@@ -575,6 +578,10 @@
       {
         "netclass": "power",
         "pattern": "*GND_SENSE*"
+      },
+      {
+        "netclass": "supply",
+        "pattern": "*3V3*"
       }
     ]
   },
@@ -686,7 +693,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
