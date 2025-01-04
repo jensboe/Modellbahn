@@ -11,9 +11,9 @@ D801,LED,CP_EIA-3528-12_Kemet-T,112.599,-70.237,180.0,top
 D901,LED,CP_EIA-3528-12_Kemet-T,112.599,-75.737,180.0,top
 J101,Conn_01x08,TerminalBlock_4Ucon_1x08_P3.50mm_Vertical,123.0376,-61.526,90.0,top
 J1101,Conn_01x03,TerminalBlock_4Ucon_1x03_P3.50mm_Vertical,123.0376,-83.002,90.0,top
-J1102,Conn_01x06,TerminalBlock_4Ucon_1x06_P3.50mm_Vertical,73.787,-76.964,-90.0,top
+J1102,Conn_01x06,TerminalBlock_4Ucon_1x06_P3.50mm_Vertical,73.787,-76.964,90.0,top
 J201,Conn_01x03,TerminalBlock_4Ucon_1x03_P3.50mm_Vertical,123.0376,-40.1278,90.0,top
-J202,Conn_01x06,TerminalBlock_4Ucon_1x06_P3.50mm_Vertical,73.914,-45.636,-90.0,top
+J202,Conn_01x06,TerminalBlock_4Ucon_1x06_P3.50mm_Vertical,73.914,-45.636,90.0,top
 JP1001,Jumper_3_Bridged12,PinHeader_1x03_P2.54mm_Vertical,103.099,-81.237,0.0,top
 JP301,Jumper_3_Bridged12,PinHeader_1x03_P2.54mm_Vertical,103.099,-42.737,0.0,top
 JP401,Jumper_3_Bridged12,PinHeader_1x03_P2.54mm_Vertical,103.099,-48.237,0.0,top

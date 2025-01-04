@@ -59,7 +59,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "footprint_type_mismatch|52700000|119375000|e4cb2780-f2f5-44eb-91bf-b28e9c8853b1|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|42540000|102484000|479e47cd-b664-4733-b924-af6f1305531e|d54ec9eb-fbbd-4257-a868-1de22d0ba1be|B.Cu",
+        "starved_thermal|45080000|87244000|479e47cd-b664-4733-b924-af6f1305531e|0ca332cc-069c-4610-88fc-136ac51fc3d2|B.Cu",
+        "starved_thermal|46350000|133980000|8f0d5ae4-33e9-49df-9ef8-882d1907c4ad|2daee329-404c-473b-8056-307978d141e5|B.Cu",
+        "starved_thermal|50000000|118740000|3a21fd58-4105-4d39-97d7-fbcb75dd7709|16612e56-89d2-4d0d-a6bf-770b558398d6|F.Cu",
+        "starved_thermal|88260000|102484000|479e47cd-b664-4733-b924-af6f1305531e|0813c196-dfcb-42c7-a053-f9a8036dbdcd|B.Cu",
+        "starved_thermal|88260000|89784000|479e47cd-b664-4733-b924-af6f1305531e|610552f1-ad46-4f26-8fdc-025f2b0435bf|B.Cu",
+        "starved_thermal|90800000|94864000|479e47cd-b664-4733-b924-af6f1305531e|935b5750-f54b-4d04-842c-7c5c87001e31|B.Cu"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
