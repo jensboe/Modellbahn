@@ -582,6 +582,10 @@
       {
         "netclass": "supply",
         "pattern": "*3V3*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*V_zwischenkreis*"
       }
     ]
   },
